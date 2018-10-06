@@ -10,4 +10,24 @@
 
 @interface CABaseAnimation : NSObject
 
+/**
+ 开始动画
+ */
+- (void)startAnimation;
+
+/**
+ 暂停动画
+ */
+- (void)suspendedAnimation;
+
+/**
+ 恢复动画
+ */
+- (void)resumeAnimation;
+
+/**
+ 停止动画
+ */
+- (void)stopAnimation;
+
 @end

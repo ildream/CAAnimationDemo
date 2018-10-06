@@ -10,4 +10,28 @@
 
 @implementation CABaseAnimation
 
+- (void)startAnimation
+{
+    //具体实现放在子类里面
+    NSLog(@"startAnimation具体实现放在子类里面");
+}
+
+- (void)suspendedAnimation
+{
+    //具体实现放在子类里面
+    NSLog(@"suspendedAnimation具体实现放在子类里面");
+}
+
+- (void)resumeAnimation
+{
+     //具体实现放在子类里面
+    NSLog(@"resumeAnimation具体实现放在子类里面");
+}
+
+- (void)stopAnimation
+{
+     //具体实现放在子类里面
+    NSLog(@"stopAnimation具体实现放在子类里面");
+}
+
 @end
