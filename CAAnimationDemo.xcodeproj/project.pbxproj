@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1026C462167AEBA00273BA7 /* CABaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1026C452167AEBA00273BA7 /* CABaseAnimation.m */; };
 		C179CF1320EA02290026C90C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C179CF1220EA02290026C90C /* AppDelegate.m */; };
 		C179CF1620EA02290026C90C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C179CF1520EA02290026C90C /* ViewController.m */; };
 		C179CF1920EA02290026C90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C179CF1720EA02290026C90C /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C1026C442167AEBA00273BA7 /* CABaseAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABaseAnimation.h; sourceTree = "<group>"; };
+		C1026C452167AEBA00273BA7 /* CABaseAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABaseAnimation.m; sourceTree = "<group>"; };
 		C179CF0E20EA02290026C90C /* CAAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C179CF1120EA02290026C90C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C179CF1220EA02290026C90C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				C179CF1220EA02290026C90C /* AppDelegate.m */,
 				C179CF1420EA02290026C90C /* ViewController.h */,
 				C179CF1520EA02290026C90C /* ViewController.m */,
+				C1026C442167AEBA00273BA7 /* CABaseAnimation.h */,
+				C1026C452167AEBA00273BA7 /* CABaseAnimation.m */,
 				C179CF1720EA02290026C90C /* Main.storyboard */,
 				C179CF1A20EA022B0026C90C /* Assets.xcassets */,
 				C179CF1C20EA022B0026C90C /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				C179CF1620EA02290026C90C /* ViewController.m in Sources */,
 				C179CF2120EA022B0026C90C /* main.m in Sources */,
 				C179CF1320EA02290026C90C /* AppDelegate.m in Sources */,
+				C1026C462167AEBA00273BA7 /* CABaseAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
