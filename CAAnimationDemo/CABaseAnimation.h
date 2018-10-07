@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CABaseAnimation : NSObject
+
+- (instancetype)initWithFrame:(CGRect)frame;
 
 /**
  开始动画

@@ -10,6 +10,11 @@
 
 @implementation CABaseAnimation
 
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    return nil;
+}
+
 - (void)startAnimation
 {
     //具体实现放在子类里面
