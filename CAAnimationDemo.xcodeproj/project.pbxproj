@@ -17,6 +17,7 @@
 		C179CF2120EA022B0026C90C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C179CF2020EA022B0026C90C /* main.m */; };
 		C179CF2B20EA022B0026C90C /* CAAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C179CF2A20EA022B0026C90C /* CAAnimationDemoTests.m */; };
 		C179CF3620EA022B0026C90C /* CAAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C179CF3520EA022B0026C90C /* CAAnimationDemoUITests.m */; };
+		C1D53B482169A702008784DC /* TransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D53B472169A702008784DC /* TransitionAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C179CF3120EA022B0026C90C /* CAAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C179CF3520EA022B0026C90C /* CAAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAAnimationDemoUITests.m; sourceTree = "<group>"; };
 		C179CF3720EA022B0026C90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D53B462169A702008784DC /* TransitionAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitionAnimation.h; sourceTree = "<group>"; };
+		C1D53B472169A702008784DC /* TransitionAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C1026C452167AEBA00273BA7 /* CABaseAnimation.m */,
 				C126E4EC216913B100C17EAF /* AlertAnimation.h */,
 				C126E4ED216913B100C17EAF /* AlertAnimation.m */,
+				C1D53B462169A702008784DC /* TransitionAnimation.h */,
+				C1D53B472169A702008784DC /* TransitionAnimation.m */,
 				C179CF1720EA02290026C90C /* Main.storyboard */,
 				C179CF1A20EA022B0026C90C /* Assets.xcassets */,
 				C179CF1C20EA022B0026C90C /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 				C179CF1320EA02290026C90C /* AppDelegate.m in Sources */,
 				C126E4EE216913B100C17EAF /* AlertAnimation.m in Sources */,
 				C1026C462167AEBA00273BA7 /* CABaseAnimation.m in Sources */,
+				C1D53B482169A702008784DC /* TransitionAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
