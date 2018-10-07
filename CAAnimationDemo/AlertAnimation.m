@@ -26,12 +26,7 @@
 
 - (void)startAnimation
 {
-    CABasicAnimation *basicAni = [CABasicAnimation animationWithKeyPath:@"position"];
-    basicAni.fromValue = [NSValue valueWithCGPoint:CGPointMake(0, 100)];
-    basicAni.toValue = [NSValue valueWithCGPoint:CGPointMake(200, 100)];
-    basicAni.duration = 3.5f;
-    basicAni.repeatCount = 1;
-    [self.alertView.layer addAnimation:basicAni forKey:@"basicAnimation"];
+    
 }
 
 - (void)stopAnimation
